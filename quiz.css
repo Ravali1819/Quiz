@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+body {
+  box-sizing: border-box;
+  background-color: #54c3ef;
+  position: relative;
+  color: #fad744;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.main_heading {
+  font-family: "Caveat Brush", cursive;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin: 40px 0px;
+}
+form {
+  background-color: #2b3252;
+  width: 500px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+input {
+  margin-bottom: 10px;
+}
+.question {
+  margin: 10px 0;
+  font-weight: 400;
+}
+.label {
+  margin: 10px 0;
+}
+.label a {
+  font-weight: lighter;
+  margin-left: 5px;
+}
+.dash {
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin: 10px 0px;
+}
+.submit {
+  padding: 20px;
+  text-align: center;
+}
+#but {
+  background-color: #f08080;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.para_res {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.marks {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-weight: 900;
+  font-size: 40px;
+  transform: translate(-50%, -50%);
+}
+.result {
+  background-color: white;
+  width: 6%;
+  height: 100px;
+  position: fixed;
+  top: 26%;
+  left: 71%;
+}
+.result h4 {
+  color: black;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+.result p {
+  color: black;
+  font-size: 16px;
+  margin-top: -5px;
+  margin-left: -16px;
+  font-weight: 600;
+}
+.correct {
+  color: green;
+  margin-left: 20px;
+}
+.wrong {
+  color: red;
+  margin-left: 20px;
+}
+.hidden {
+  opacity: 0;
+}
